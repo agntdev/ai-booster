@@ -1,0 +1,20 @@
+[
+  {
+    "name": "My Subscriptions",
+    "steps": [
+      {
+        "expect": [
+          {
+            "method": "sendMessage",
+            "payload": {
+              "text": "View and manage subscription tier"
+            }
+          }
+        ],
+        "send": {
+          "callback": "subs:manage"
+        }
+      }
+    ]
+  }
+]
